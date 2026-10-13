@@ -1,0 +1,38 @@
+{
+  "dataset": {
+    "file": "hostwise_5cities.csv",
+    "sha256": "ea79f802b2ffdb379170edd132218eb891426e57b9c69314872b93323cfac917",
+    "rows_loaded": 245402
+  },
+  "scope": [
+    "active (city scrape)",
+    "+ valid price",
+    "+ minimum_nights <= 29"
+  ],
+  "scope_rows": 153812,
+  "target": {
+    "name": "price_eur",
+    "local_price": "price_num",
+    "gbp_to_eur": 1.15,
+    "note": "fixed approximate rate; London converted, other cities unchanged"
+  },
+  "baseline_features": [
+    "accommodates",
+    "bedrooms",
+    "bathrooms",
+    "latitude",
+    "longitude",
+    "city",
+    "room_type",
+    "property_type"
+  ],
+  "split": {
+    "test_size": 0.2,
+    "random_state": 42,
+    "stratify": "city",
+    "rows_sorted_by": "id"
+  },
+  "n_train": 123049,
+  "n_test": 30763,
+  "test_listings_with_host_in_train_%": 55.8
+}
