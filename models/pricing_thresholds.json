@@ -1,0 +1,23 @@
+{
+  "created": "2026-10-13",
+  "source": "Out-of-fold predictions of the V2.2 LightGBM/XGBoost pipeline on the training listings (test set not used)",
+  "method": "ratio = listed price / model estimate; Typical = 25th-75th percentile of actual/estimate ratios of training listings in the same review group",
+  "note": "Bands describe typical observed prices relative to the model estimate; they are not fair market values or confidence intervals.",
+  "max_reliable_estimate_eur": 1200,
+  "segments": {
+    "with_reviews": {
+      "typical_low": 0.829,
+      "typical_high": 1.171,
+      "extreme_low": 0.474,
+      "extreme_high": 2.611,
+      "listings": 103911
+    },
+    "no_reviews": {
+      "typical_low": 0.762,
+      "typical_high": 1.231,
+      "extreme_low": 0.351,
+      "extreme_high": 4.917,
+      "listings": 19138
+    }
+  }
+}

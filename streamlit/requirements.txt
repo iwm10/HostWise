@@ -1,0 +1,10 @@
+# HostWise Streamlit app.
+# Install the same scikit-learn, LightGBM, XGBoost, NumPy and pandas versions recorded in
+# models/hostwise_pipeline_meta.json ("versions"); the saved model may not load with other versions.
+streamlit>=1.32
+scikit-learn
+lightgbm
+xgboost
+pandas
+numpy
+joblib

@@ -1,0 +1,47 @@
+{
+  "model": "VotingRegressor (LightGBM + XGBoost), log1p target",
+  "preprocessing": "V2.2",
+  "features": [
+    "accommodates",
+    "latitude",
+    "longitude",
+    "beds",
+    "minimum_nights",
+    "hosts_time_as_host_years",
+    "bedrooms",
+    "review_scores_rating",
+    "number_of_reviews",
+    "calculated_host_listings_count",
+    "bathrooms_text",
+    "city",
+    "room_type",
+    "property_type",
+    "neighbourhood_cleansed",
+    "host_is_superhost",
+    "amenities"
+  ],
+  "target": "nightly price in EUR (London converted from GBP)",
+  "gbp_to_eur": 1.15,
+  "n_train": 123049,
+  "trained_date": "2026-10-13",
+  "cv_mae_eur": 87.97,
+  "cv_mae_by_city_eur": {
+    "barcelona": 71.42,
+    "london": 89.52,
+    "madrid": 68.43,
+    "paris": 117.89,
+    "rome": 61.81
+  },
+  "cv_mae_no_reviews_eur": 166.81,
+  "versions": {
+    "sklearn": "1.6.1",
+    "lightgbm": "4.7.0",
+    "xgboost": "2.1.4",
+    "numpy": "1.26.4",
+    "pandas": "2.2.3"
+  },
+  "test_mae_eur": 108.26,
+  "test_mae_without_extreme_listing_eur": 88.54,
+  "test_median_ae_eur": 33.47,
+  "cv_median_ae_eur": 33.76
+}
