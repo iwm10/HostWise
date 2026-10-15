@@ -19,7 +19,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 SHARED_DIR = PROJECT_ROOT / "shared_foundation"
 MODEL_PATH = PROJECT_ROOT / "models" / "hostwise_pipeline.joblib"
 META_PATH = PROJECT_ROOT / "models" / "hostwise_pipeline_meta.json"
-DATA_PATH = PROJECT_ROOT / "data" / "processed" / "hostwise_5cities.csv"
+OPTIONS_PATH = Path(__file__).resolve().parent / "app_options.json"
 
 # `preprocessing` must be importable before the pipeline is unpickled.
 if str(SHARED_DIR) not in sys.path:
@@ -139,35 +139,24 @@ def amenities_text(selected: list[str]) -> str:
     return json.dumps([MODEL_AMENITIES[a] for a in selected])
 
 
+def model_property_types(artifacts: Artifacts) -> list[str]:
+    """Property types the model knows as frequent categories (in encoder order)."""
+    idx = artifacts.cat_columns.index("property_type")
+    infrequent = artifacts.encoder.infrequent_categories_[idx]
+    infrequent = set() if infrequent is None else set(infrequent)
+    return [c for c in artifacts.encoder.categories_[idx] if c != "infrequent_sklearn" and c not in infrequent]
+
+
 def listing_options(artifacts: Artifacts) -> dict:
-    """Neighbourhoods (with typical coordinates) per city, city bounds, and property types per room type."""
-    property_types = [c for c in artifacts.encoder.categories_[artifacts.cat_columns.index("property_type")]
-                      if c != "infrequent_sklearn"]
-    infrequent = artifacts.encoder.infrequent_categories_[artifacts.cat_columns.index("property_type")]
-    frequent_types = [c for c in property_types if infrequent is None or c not in set(infrequent)]
-    options = {"cities": {}, "property_types": {rt: frequent_types for rt in ROOM_TYPES}, "source": "model"}
-    if not DATA_PATH.exists():
-        return options
-    cols = ["city", "neighbourhood_cleansed", "latitude", "longitude", "room_type", "property_type"]
-    data = pd.read_csv(DATA_PATH, usecols=cols, low_memory=False)
-    for city in CITIES:
-        part = data[data["city"] == city]
-        hoods = (part.groupby("neighbourhood_cleansed")
-                 .agg(listings=("latitude", "size"), lat=("latitude", "median"), lon=("longitude", "median"))
-                 .sort_values("listings", ascending=False))
-        options["cities"][city] = {
-            "neighbourhoods": {h: {"lat": round(r.lat, 5), "lon": round(r.lon, 5), "listings": int(r.listings)}
-                               for h, r in hoods.iterrows()},
-            "bounds": {"lat": [float(part["latitude"].min()) - 0.05, float(part["latitude"].max()) + 0.05],
-                       "lon": [float(part["longitude"].min()) - 0.05, float(part["longitude"].max()) + 0.05]},
-        }
-    pairs = data.groupby(["room_type", "property_type"]).size()
-    for rt in ROOM_TYPES:
-        if rt in pairs.index.get_level_values(0):
-            ranked = pairs.loc[rt].sort_values(ascending=False)
-            options["property_types"][rt] = [p for p in ranked.index if p in set(frequent_types)] or frequent_types
-    options["source"] = "data"
-    return options
+    """Neighbourhoods (with typical coordinates) per city, city bounds, and property types per room type.
+
+    Read from app_options.json, a small file derived from the training data by build_app_options.py,
+    so the app does not need the full dataset at runtime.
+    """
+    if OPTIONS_PATH.exists():
+        return json.loads(OPTIONS_PATH.read_text(encoding="utf-8"))
+    frequent_types = model_property_types(artifacts)
+    return {"cities": {}, "property_types": {rt: frequent_types for rt in ROOM_TYPES}, "source": "model"}
 
 
 # ------------------------------------------------------------------ validation and prediction

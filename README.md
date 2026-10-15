@@ -72,7 +72,10 @@ HostWise/
 │   ├── streamlit_app.py          # Demo entry point
 │   ├── hostwise_service.py       # Model loading, input helpers, prediction
 │   ├── check_app.py              # Application checks
-│   ├── requirements.txt
+│   ├── app_options.json          # Neighbourhoods, coordinates, property types (small, static)
+│   ├── build_app_options.py      # Regenerates app_options.json from the full dataset (offline)
+│   ├── requirements.txt          # Pinned Python dependencies
+│   ├── packages.txt              # System dependency for LightGBM on Streamlit Cloud
 │   └── README.md
 ├── .streamlit/
 │   └── config.toml
@@ -99,13 +102,9 @@ The Streamlit code and trained model are included in this repository. Use Python
  streamlit run streamlit/streamlit_app.py
 ```
 
-**Current setup limitation:** The app's `listing_options()` helper reads `data/processed/hostwise_5cities.csv` to populate neighborhoods, coordinates, and property types. That dataset is **not currently included in the GitHub repository**. Without it, the application may not provide the neighborhood selections needed for a complete demo. To run the current version with full location options, place the existing project dataset at:
+The app runs from a fresh clone: it needs only the files in this repository. Neighbourhoods, their typical coordinates, city bounds and property types come from the small `streamlit/app_options.json`, derived from the full training dataset, which is not required at runtime. Use **Python 3.12**; `streamlit/requirements.txt` pins the library versions the model was trained with.
 
-```text
-data/processed/hostwise_5cities.csv
-```
-
-This is a **local development/demo setup**, not yet a verified standalone deployment after a fresh clone. A future update can replace the full-dataset dependency with a small precomputed options file. The app's Python source also contains older `app/` path examples; the correct command for this repository layout is the `streamlit run streamlit/streamlit_app.py` command above.
+To check the model without the UI: `python streamlit/check_app.py`.
 
 ## Limitations
 

@@ -1,0 +1,1451 @@
+{
+ "cities": {
+  "london": {
+   "neighbourhoods": {
+    "Westminster": {
+     "lat": 51.51519,
+     "lon": -0.16256,
+     "listings": 10876
+    },
+    "Tower Hamlets": {
+     "lat": 51.51755,
+     "lon": -0.04986,
+     "listings": 6842
+    },
+    "Camden": {
+     "lat": 51.53705,
+     "lon": -0.13826,
+     "listings": 6199
+    },
+    "Kensington and Chelsea": {
+     "lat": 51.49536,
+     "lon": -0.19044,
+     "listings": 6184
+    },
+    "Hackney": {
+     "lat": 51.54574,
+     "lon": -0.0715,
+     "listings": 5756
+    },
+    "Southwark": {
+     "lat": 51.49174,
+     "lon": -0.08148,
+     "listings": 5156
+    },
+    "Lambeth": {
+     "lat": 51.46614,
+     "lon": -0.11897,
+     "listings": 4984
+    },
+    "Islington": {
+     "lat": 51.54311,
+     "lon": -0.10874,
+     "listings": 4750
+    },
+    "Wandsworth": {
+     "lat": 51.45941,
+     "lon": -0.17072,
+     "listings": 4722
+    },
+    "Hammersmith and Fulham": {
+     "lat": 51.48971,
+     "lon": -0.21287,
+     "listings": 4057
+    },
+    "Brent": {
+     "lat": 51.54744,
+     "lon": -0.23596,
+     "listings": 2936
+    },
+    "Lewisham": {
+     "lat": 51.45913,
+     "lon": -0.03147,
+     "listings": 2593
+    },
+    "Haringey": {
+     "lat": 51.58711,
+     "lon": -0.10082,
+     "listings": 2517
+    },
+    "Newham": {
+     "lat": 51.52838,
+     "lon": 0.02014,
+     "listings": 2516
+    },
+    "Ealing": {
+     "lat": 51.51281,
+     "lon": -0.2953,
+     "listings": 2418
+    },
+    "Barnet": {
+     "lat": 51.59469,
+     "lon": -0.20312,
+     "listings": 2367
+    },
+    "Greenwich": {
+     "lat": 51.48506,
+     "lon": 0.04323,
+     "listings": 1914
+    },
+    "Waltham Forest": {
+     "lat": 51.57791,
+     "lon": -0.01217,
+     "listings": 1854
+    },
+    "Croydon": {
+     "lat": 51.38251,
+     "lon": -0.09565,
+     "listings": 1769
+    },
+    "Merton": {
+     "lat": 51.41634,
+     "lon": -0.19845,
+     "listings": 1603
+    },
+    "Hounslow": {
+     "lat": 51.48032,
+     "lon": -0.3289,
+     "listings": 1357
+    },
+    "Richmond upon Thames": {
+     "lat": 51.4584,
+     "lon": -0.30245,
+     "listings": 1257
+    },
+    "Redbridge": {
+     "lat": 51.57486,
+     "lon": 0.06975,
+     "listings": 993
+    },
+    "Hillingdon": {
+     "lat": 51.52448,
+     "lon": -0.44587,
+     "listings": 967
+    },
+    "Bromley": {
+     "lat": 51.40731,
+     "lon": 0.01294,
+     "listings": 912
+    },
+    "Enfield": {
+     "lat": 51.6367,
+     "lon": -0.08228,
+     "listings": 889
+    },
+    "Kingston upon Thames": {
+     "lat": 51.40415,
+     "lon": -0.29167,
+     "listings": 703
+    },
+    "Barking and Dagenham": {
+     "lat": 51.54072,
+     "lon": 0.122,
+     "listings": 689
+    },
+    "Harrow": {
+     "lat": 51.58581,
+     "lon": -0.33914,
+     "listings": 641
+    },
+    "Bexley": {
+     "lat": 51.4717,
+     "lon": 0.13508,
+     "listings": 632
+    },
+    "City of London": {
+     "lat": 51.51414,
+     "lon": -0.09073,
+     "listings": 582
+    },
+    "Havering": {
+     "lat": 51.57312,
+     "lon": 0.19361,
+     "listings": 520
+    },
+    "Sutton": {
+     "lat": 51.36652,
+     "lon": -0.19079,
+     "listings": 483
+    }
+   },
+   "bounds": {
+    "lat": [
+     51.245937000000005,
+     51.73263
+    ],
+    "lon": [
+     -0.54676,
+     0.32896
+    ]
+   }
+  },
+  "paris": {
+   "neighbourhoods": {
+    "Buttes-Montmartre": {
+     "lat": 48.88926,
+     "lon": 2.34344,
+     "listings": 8131
+    },
+    "Popincourt": {
+     "lat": 48.85977,
+     "lon": 2.37755,
+     "listings": 6899
+    },
+    "Vaugirard": {
+     "lat": 48.84335,
+     "lon": 2.29508,
+     "listings": 6224
+    },
+    "Entrepôt": {
+     "lat": 48.87353,
+     "lon": 2.36011,
+     "listings": 5330
+    },
+    "Batignolles-Monceau": {
+     "lat": 48.88546,
+     "lon": 2.31365,
+     "listings": 5128
+    },
+    "Passy": {
+     "lat": 48.85916,
+     "lon": 2.27782,
+     "listings": 4817
+    },
+    "Buttes-Chaumont": {
+     "lat": 48.883,
+     "lon": 2.38172,
+     "listings": 4211
+    },
+    "Ménilmontant": {
+     "lat": 48.86725,
+     "lon": 2.39812,
+     "listings": 4124
+    },
+    "Opéra": {
+     "lat": 48.87868,
+     "lon": 2.3401,
+     "listings": 3651
+    },
+    "Temple": {
+     "lat": 48.86368,
+     "lon": 2.35889,
+     "listings": 3511
+    },
+    "Reuilly": {
+     "lat": 48.84548,
+     "lon": 2.38933,
+     "listings": 3161
+    },
+    "Bourse": {
+     "lat": 48.86778,
+     "lon": 2.34806,
+     "listings": 2894
+    },
+    "Observatoire": {
+     "lat": 48.83118,
+     "lon": 2.32528,
+     "listings": 2803
+    },
+    "Panthéon": {
+     "lat": 48.84431,
+     "lon": 2.34922,
+     "listings": 2619
+    },
+    "Élysée": {
+     "lat": 48.87306,
+     "lon": 2.31174,
+     "listings": 2569
+    },
+    "Hôtel-de-Ville": {
+     "lat": 48.85634,
+     "lon": 2.35706,
+     "listings": 2520
+    },
+    "Gobelins": {
+     "lat": 48.82892,
+     "lon": 2.35595,
+     "listings": 2505
+    },
+    "Luxembourg": {
+     "lat": 48.8514,
+     "lon": 2.3346,
+     "listings": 2400
+    },
+    "Palais-Bourbon": {
+     "lat": 48.85695,
+     "lon": 2.30847,
+     "listings": 2320
+    },
+    "Louvre": {
+     "lat": 48.86329,
+     "lon": 2.34192,
+     "listings": 1862
+    }
+   },
+   "bounds": {
+    "lat": [
+     48.76609005518649,
+     48.951589999999996
+    ],
+    "lon": [
+     2.1798957000000003,
+     2.51712
+    ]
+   }
+  },
+  "rome": {
+   "neighbourhoods": {
+    "I Centro Storico": {
+     "lat": 41.89922,
+     "lon": 12.47629,
+     "listings": 18730
+    },
+    "VII San Giovanni/Cinecittà": {
+     "lat": 41.87753,
+     "lon": 12.51979,
+     "listings": 3151
+    },
+    "XIII Aurelia": {
+     "lat": 41.89787,
+     "lon": 12.44206,
+     "listings": 2640
+    },
+    "II Parioli/Nomentano": {
+     "lat": 41.9137,
+     "lon": 12.5125,
+     "listings": 2515
+    },
+    "XII Monte Verde": {
+     "lat": 41.87627,
+     "lon": 12.45731,
+     "listings": 2016
+    },
+    "V Prenestino/Centocelle": {
+     "lat": 41.88813,
+     "lon": 12.54126,
+     "listings": 1781
+    },
+    "VIII Appia Antica": {
+     "lat": 41.86039,
+     "lon": 12.48364,
+     "listings": 1189
+    },
+    "X Ostia/Acilia": {
+     "lat": 41.73464,
+     "lon": 12.28783,
+     "listings": 978
+    },
+    "XIV Monte Mario": {
+     "lat": 41.92264,
+     "lon": 12.42514,
+     "listings": 791
+    },
+    "XI Arvalia/Portuense": {
+     "lat": 41.86347,
+     "lon": 12.4642,
+     "listings": 751
+    },
+    "IV Tiburtina": {
+     "lat": 41.91025,
+     "lon": 12.54349,
+     "listings": 644
+    },
+    "III Monte Sacro": {
+     "lat": 41.94352,
+     "lon": 12.53007,
+     "listings": 597
+    },
+    "XV Cassia/Flaminia": {
+     "lat": 41.95909,
+     "lon": 12.46002,
+     "listings": 577
+    },
+    "IX Eur": {
+     "lat": 41.81084,
+     "lon": 12.46321,
+     "listings": 394
+    },
+    "VI Roma delle Torri": {
+     "lat": 41.86527,
+     "lon": 12.6302,
+     "listings": 330
+    }
+   },
+   "bounds": {
+    "lat": [
+     41.60582,
+     42.17131
+    ],
+    "lon": [
+     12.19253,
+     12.8857
+    ]
+   }
+  },
+  "madrid": {
+   "neighbourhoods": {
+    "Embajadores": {
+     "lat": 40.41013,
+     "lon": -3.70344,
+     "listings": 2453
+    },
+    "Universidad": {
+     "lat": 40.42392,
+     "lon": -3.70479,
+     "listings": 1946
+    },
+    "Palacio": {
+     "lat": 40.41562,
+     "lon": -3.71043,
+     "listings": 1681
+    },
+    "Sol": {
+     "lat": 40.41713,
+     "lon": -3.70451,
+     "listings": 1240
+    },
+    "Justicia": {
+     "lat": 40.42266,
+     "lon": -3.69882,
+     "listings": 1120
+    },
+    "Cortes": {
+     "lat": 40.41445,
+     "lon": -3.69857,
+     "listings": 1030
+    },
+    "Cuatro Caminos": {
+     "lat": 40.45106,
+     "lon": -3.70038,
+     "listings": 470
+    },
+    "Trafalgar": {
+     "lat": 40.43172,
+     "lon": -3.70159,
+     "listings": 463
+    },
+    "Guindalera": {
+     "lat": 40.43499,
+     "lon": -3.66882,
+     "listings": 390
+    },
+    "Palos de Moguer": {
+     "lat": 40.40411,
+     "lon": -3.69415,
+     "listings": 369
+    },
+    "Goya": {
+     "lat": 40.42579,
+     "lon": -3.67556,
+     "listings": 367
+    },
+    "Argüelles": {
+     "lat": 40.42615,
+     "lon": -3.71625,
+     "listings": 325
+    },
+    "Recoletos": {
+     "lat": 40.424,
+     "lon": -3.68529,
+     "listings": 307
+    },
+    "Castillejos": {
+     "lat": 40.45912,
+     "lon": -3.6958,
+     "listings": 287
+    },
+    "Pacífico": {
+     "lat": 40.40487,
+     "lon": -3.67708,
+     "listings": 270
+    },
+    "Rios Rosas": {
+     "lat": 40.44217,
+     "lon": -3.69909,
+     "listings": 251
+    },
+    "San Diego": {
+     "lat": 40.39316,
+     "lon": -3.66766,
+     "listings": 244
+    },
+    "Puerta del Angel": {
+     "lat": 40.41036,
+     "lon": -3.73132,
+     "listings": 242
+    },
+    "Prosperidad": {
+     "lat": 40.44227,
+     "lon": -3.6736,
+     "listings": 237
+    },
+    "Gaztambide": {
+     "lat": 40.4354,
+     "lon": -3.71401,
+     "listings": 237
+    },
+    "Bellas Vistas": {
+     "lat": 40.45119,
+     "lon": -3.70581,
+     "listings": 235
+    },
+    "Arapiles": {
+     "lat": 40.43294,
+     "lon": -3.70861,
+     "listings": 230
+    },
+    "Ibiza": {
+     "lat": 40.41924,
+     "lon": -3.6761,
+     "listings": 227
+    },
+    "Valdeacederas": {
+     "lat": 40.46604,
+     "lon": -3.70117,
+     "listings": 224
+    },
+    "Almagro": {
+     "lat": 40.43349,
+     "lon": -3.69355,
+     "listings": 223
+    },
+    "Berruguete": {
+     "lat": 40.45987,
+     "lon": -3.70419,
+     "listings": 222
+    },
+    "Pueblo Nuevo": {
+     "lat": 40.42915,
+     "lon": -3.64091,
+     "listings": 220
+    },
+    "Numancia": {
+     "lat": 40.39841,
+     "lon": -3.66254,
+     "listings": 219
+    },
+    "Ventas": {
+     "lat": 40.42844,
+     "lon": -3.65357,
+     "listings": 216
+    },
+    "Lista": {
+     "lat": 40.43154,
+     "lon": -3.67508,
+     "listings": 206
+    },
+    "Acacias": {
+     "lat": 40.40235,
+     "lon": -3.70417,
+     "listings": 198
+    },
+    "San Isidro": {
+     "lat": 40.39556,
+     "lon": -3.72799,
+     "listings": 191
+    },
+    "Almenara": {
+     "lat": 40.47048,
+     "lon": -3.6923,
+     "listings": 185
+    },
+    "Imperial": {
+     "lat": 40.40933,
+     "lon": -3.71868,
+     "listings": 180
+    },
+    "Castellana": {
+     "lat": 40.43442,
+     "lon": -3.68369,
+     "listings": 179
+    },
+    "Delicias": {
+     "lat": 40.39802,
+     "lon": -3.69431,
+     "listings": 172
+    },
+    "Nueva España": {
+     "lat": 40.46295,
+     "lon": -3.68688,
+     "listings": 164
+    },
+    "Opañel": {
+     "lat": 40.39128,
+     "lon": -3.72181,
+     "listings": 146
+    },
+    "Rejas": {
+     "lat": 40.44404,
+     "lon": -3.58242,
+     "listings": 144
+    },
+    "Valdefuentes": {
+     "lat": 40.48723,
+     "lon": -3.65546,
+     "listings": 144
+    },
+    "Fuente del Berro": {
+     "lat": 40.4259,
+     "lon": -3.66583,
+     "listings": 142
+    },
+    "Canillas": {
+     "lat": 40.46428,
+     "lon": -3.64782,
+     "listings": 137
+    },
+    "Chopera": {
+     "lat": 40.39624,
+     "lon": -3.69846,
+     "listings": 134
+    },
+    "Moscardó": {
+     "lat": 40.3879,
+     "lon": -3.70386,
+     "listings": 132
+    },
+    "Pinar del Rey": {
+     "lat": 40.4726,
+     "lon": -3.64497,
+     "listings": 131
+    },
+    "Comillas": {
+     "lat": 40.39452,
+     "lon": -3.71196,
+     "listings": 130
+    },
+    "Adelfas": {
+     "lat": 40.40052,
+     "lon": -3.67074,
+     "listings": 130
+    },
+    "Hispanoamérica": {
+     "lat": 40.45571,
+     "lon": -3.68012,
+     "listings": 126
+    },
+    "Valverde": {
+     "lat": 40.49303,
+     "lon": -3.68772,
+     "listings": 111
+    },
+    "Vista Alegre": {
+     "lat": 40.38708,
+     "lon": -3.74102,
+     "listings": 110
+    },
+    "Vallehermoso": {
+     "lat": 40.44209,
+     "lon": -3.71004,
+     "listings": 109
+    },
+    "Almendrales": {
+     "lat": 40.38554,
+     "lon": -3.7013,
+     "listings": 105
+    },
+    "Ciudad Jardín": {
+     "lat": 40.44632,
+     "lon": -3.67342,
+     "listings": 100
+    },
+    "Quintana": {
+     "lat": 40.43478,
+     "lon": -3.6472,
+     "listings": 100
+    },
+    "Simancas": {
+     "lat": 40.43533,
+     "lon": -3.62694,
+     "listings": 98
+    },
+    "San Andrés": {
+     "lat": 40.34357,
+     "lon": -3.70903,
+     "listings": 97
+    },
+    "Casa de Campo": {
+     "lat": 40.42545,
+     "lon": -3.72685,
+     "listings": 96
+    },
+    "Canillejas": {
+     "lat": 40.43986,
+     "lon": -3.61061,
+     "listings": 95
+    },
+    "Casco Histórico de Vallecas": {
+     "lat": 40.37481,
+     "lon": -3.62325,
+     "listings": 93
+    },
+    "Jerónimos": {
+     "lat": 40.41267,
+     "lon": -3.68618,
+     "listings": 89
+    },
+    "El Viso": {
+     "lat": 40.44453,
+     "lon": -3.68376,
+     "listings": 88
+    },
+    "Concepción": {
+     "lat": 40.43618,
+     "lon": -3.65328,
+     "listings": 86
+    },
+    "Castilla": {
+     "lat": 40.47056,
+     "lon": -3.6855,
+     "listings": 85
+    },
+    "Ciudad Universitaria": {
+     "lat": 40.45898,
+     "lon": -3.71944,
+     "listings": 80
+    },
+    "Puerta Bonita": {
+     "lat": 40.37814,
+     "lon": -3.74079,
+     "listings": 79
+    },
+    "Lucero": {
+     "lat": 40.4052,
+     "lon": -3.74751,
+     "listings": 78
+    },
+    "Valdezarza": {
+     "lat": 40.46479,
+     "lon": -3.71475,
+     "listings": 71
+    },
+    "Orcasur": {
+     "lat": 40.37996,
+     "lon": -3.69428,
+     "listings": 66
+    },
+    "Niño Jesús": {
+     "lat": 40.41377,
+     "lon": -3.67503,
+     "listings": 61
+    },
+    "Aluche": {
+     "lat": 40.39279,
+     "lon": -3.75895,
+     "listings": 61
+    },
+    "Timón": {
+     "lat": 40.47145,
+     "lon": -3.5875,
+     "listings": 61
+    },
+    "Entrevías": {
+     "lat": 40.38082,
+     "lon": -3.67069,
+     "listings": 60
+    },
+    "Pilar": {
+     "lat": 40.47657,
+     "lon": -3.7121,
+     "listings": 60
+    },
+    "Peñagrande": {
+     "lat": 40.4804,
+     "lon": -3.72146,
+     "listings": 59
+    },
+    "Fontarrón": {
+     "lat": 40.40133,
+     "lon": -3.64226,
+     "listings": 59
+    },
+    "Atocha": {
+     "lat": 40.39902,
+     "lon": -3.67903,
+     "listings": 52
+    },
+    "Los Angeles": {
+     "lat": 40.35625,
+     "lon": -3.69876,
+     "listings": 52
+    },
+    "Pradolongo": {
+     "lat": 40.38211,
+     "lon": -3.70742,
+     "listings": 52
+    },
+    "Casco Histórico de Vicálvaro": {
+     "lat": 40.40117,
+     "lon": -3.60514,
+     "listings": 51
+    },
+    "San Fermín": {
+     "lat": 40.37159,
+     "lon": -3.69022,
+     "listings": 50
+    },
+    "Palomeras Sureste": {
+     "lat": 40.38548,
+     "lon": -3.64084,
+     "listings": 49
+    },
+    "Aguilas": {
+     "lat": 40.38145,
+     "lon": -3.77119,
+     "listings": 49
+    },
+    "Cármenes": {
+     "lat": 40.40328,
+     "lon": -3.73753,
+     "listings": 49
+    },
+    "Buenavista": {
+     "lat": 40.36986,
+     "lon": -3.7521,
+     "listings": 49
+    },
+    "Casco Histórico de Barajas": {
+     "lat": 40.4738,
+     "lon": -3.57868,
+     "listings": 49
+    },
+    "Aravaca": {
+     "lat": 40.45789,
+     "lon": -3.77992,
+     "listings": 48
+    },
+    "Zofío": {
+     "lat": 40.38118,
+     "lon": -3.71482,
+     "listings": 47
+    },
+    "Palomeras Bajas": {
+     "lat": 40.38944,
+     "lon": -3.65784,
+     "listings": 46
+    },
+    "Los Rosales": {
+     "lat": 40.35233,
+     "lon": -3.68776,
+     "listings": 46
+    },
+    "Arcos": {
+     "lat": 40.42247,
+     "lon": -3.61618,
+     "listings": 46
+    },
+    "Abrantes": {
+     "lat": 40.38263,
+     "lon": -3.72797,
+     "listings": 45
+    },
+    "Legazpi": {
+     "lat": 40.38883,
+     "lon": -3.69136,
+     "listings": 44
+    },
+    "Portazgo": {
+     "lat": 40.38974,
+     "lon": -3.64818,
+     "listings": 43
+    },
+    "Rosas": {
+     "lat": 40.42981,
+     "lon": -3.60804,
+     "listings": 39
+    },
+    "San Pascual": {
+     "lat": 40.44233,
+     "lon": -3.65308,
+     "listings": 38
+    },
+    "Estrella": {
+     "lat": 40.41344,
+     "lon": -3.66807,
+     "listings": 36
+    },
+    "Apostol Santiago": {
+     "lat": 40.4764,
+     "lon": -3.6612,
+     "listings": 34
+    },
+    "Vinateros": {
+     "lat": 40.40541,
+     "lon": -3.64457,
+     "listings": 34
+    },
+    "Alameda de Osuna": {
+     "lat": 40.45658,
+     "lon": -3.58909,
+     "listings": 33
+    },
+    "Costillares": {
+     "lat": 40.46986,
+     "lon": -3.66526,
+     "listings": 30
+    },
+    "Piovera": {
+     "lat": 40.4558,
+     "lon": -3.64002,
+     "listings": 30
+    },
+    "San Juan Bautista": {
+     "lat": 40.45211,
+     "lon": -3.6558,
+     "listings": 29
+    },
+    "La Paz": {
+     "lat": 40.47851,
+     "lon": -3.69659,
+     "listings": 26
+    },
+    "Butarque": {
+     "lat": 40.35166,
+     "lon": -3.67945,
+     "listings": 26
+    },
+    "Campamento": {
+     "lat": 40.3965,
+     "lon": -3.77361,
+     "listings": 25
+    },
+    "Colina": {
+     "lat": 40.45804,
+     "lon": -3.66114,
+     "listings": 23
+    },
+    "Orcasitas": {
+     "lat": 40.36914,
+     "lon": -3.71096,
+     "listings": 22
+    },
+    "Media Legua": {
+     "lat": 40.40866,
+     "lon": -3.65613,
+     "listings": 21
+    },
+    "Mirasierra": {
+     "lat": 40.49237,
+     "lon": -3.71471,
+     "listings": 20
+    },
+    "Salvador": {
+     "lat": 40.44411,
+     "lon": -3.63576,
+     "listings": 20
+    },
+    "San Cristobal": {
+     "lat": 40.34288,
+     "lon": -3.6882,
+     "listings": 20
+    },
+    "El Plantío": {
+     "lat": 40.47048,
+     "lon": -3.82281,
+     "listings": 19
+    },
+    "Marroquina": {
+     "lat": 40.41024,
+     "lon": -3.65015,
+     "listings": 17
+    },
+    "Corralejos": {
+     "lat": 40.46709,
+     "lon": -3.59173,
+     "listings": 16
+    },
+    "Ambroz": {
+     "lat": 40.40695,
+     "lon": -3.60734,
+     "listings": 14
+    },
+    "Amposta": {
+     "lat": 40.42753,
+     "lon": -3.61895,
+     "listings": 13
+    },
+    "Hellín": {
+     "lat": 40.43077,
+     "lon": -3.61578,
+     "listings": 13
+    },
+    "Valdemarín": {
+     "lat": 40.4681,
+     "lon": -3.78244,
+     "listings": 12
+    },
+    "Aeropuerto": {
+     "lat": 40.46979,
+     "lon": -3.57858,
+     "listings": 11
+    },
+    "Santa Eugenia": {
+     "lat": 40.38148,
+     "lon": -3.61184,
+     "listings": 9
+    },
+    "El Goloso": {
+     "lat": 40.50662,
+     "lon": -3.70016,
+     "listings": 8
+    },
+    "Pavones": {
+     "lat": 40.39683,
+     "lon": -3.63432,
+     "listings": 7
+    },
+    "Cuatro Vientos": {
+     "lat": 40.37198,
+     "lon": -3.77058,
+     "listings": 6
+    },
+    "Palomas": {
+     "lat": 40.45226,
+     "lon": -3.61186,
+     "listings": 5
+    },
+    "Fuentelareina": {
+     "lat": 40.4761,
+     "lon": -3.74182,
+     "listings": 5
+    },
+    "Horcajo": {
+     "lat": 40.40605,
+     "lon": -3.62632,
+     "listings": 4
+    },
+    "El Pardo": {
+     "lat": 40.52481,
+     "lon": -3.77803,
+     "listings": 2
+    },
+    "Atalaya": {
+     "lat": 40.46366,
+     "lon": -3.66427,
+     "listings": 1
+    }
+   },
+   "bounds": {
+    "lat": [
+     40.281890000000004,
+     40.58553
+    ],
+    "lon": [
+     -3.8820599999999996,
+     -3.495904093260565
+    ]
+   }
+  },
+  "barcelona": {
+   "neighbourhoods": {
+    "la Dreta de l'Eixample": {
+     "lat": 41.39292,
+     "lon": 2.1689,
+     "listings": 2145
+    },
+    "el Raval": {
+     "lat": 41.38019,
+     "lon": 2.1691,
+     "listings": 1031
+    },
+    "Sant Pere, Santa Caterina i la Ribera": {
+     "lat": 41.3863,
+     "lon": 2.17999,
+     "listings": 925
+    },
+    "la Vila de Gràcia": {
+     "lat": 41.40121,
+     "lon": 2.15783,
+     "listings": 924
+    },
+    "la Sagrada Família": {
+     "lat": 41.40496,
+     "lon": 2.17557,
+     "listings": 910
+    },
+    "el Barri Gòtic": {
+     "lat": 41.3817,
+     "lon": 2.17625,
+     "listings": 881
+    },
+    "l'Antiga Esquerra de l'Eixample": {
+     "lat": 41.38861,
+     "lon": 2.15696,
+     "listings": 850
+    },
+    "Sant Antoni": {
+     "lat": 41.3798,
+     "lon": 2.16068,
+     "listings": 846
+    },
+    "la Nova Esquerra de l'Eixample": {
+     "lat": 41.38156,
+     "lon": 2.14987,
+     "listings": 660
+    },
+    "el Poble Sec": {
+     "lat": 41.37337,
+     "lon": 2.16425,
+     "listings": 650
+    },
+    "Sant Gervasi - Galvany": {
+     "lat": 41.3982,
+     "lon": 2.14641,
+     "listings": 448
+    },
+    "el Poblenou": {
+     "lat": 41.3999,
+     "lon": 2.20329,
+     "listings": 437
+    },
+    "el Fort Pienc": {
+     "lat": 41.39839,
+     "lon": 2.17946,
+     "listings": 424
+    },
+    "la Barceloneta": {
+     "lat": 41.37955,
+     "lon": 2.1896,
+     "listings": 410
+    },
+    "Sants": {
+     "lat": 41.37566,
+     "lon": 2.13609,
+     "listings": 266
+    },
+    "el Camp de l'Arpa del Clot": {
+     "lat": 41.4111,
+     "lon": 2.18095,
+     "listings": 258
+    },
+    "el Camp d'en Grassot i Gràcia Nova": {
+     "lat": 41.40479,
+     "lon": 2.16617,
+     "listings": 257
+    },
+    "les Corts": {
+     "lat": 41.38586,
+     "lon": 2.13517,
+     "listings": 229
+    },
+    "el Putxet i el Farró": {
+     "lat": 41.40528,
+     "lon": 2.14538,
+     "listings": 203
+    },
+    "Hostafrancs": {
+     "lat": 41.37535,
+     "lon": 2.14412,
+     "listings": 176
+    },
+    "el Parc i la Llacuna del Poblenou": {
+     "lat": 41.39498,
+     "lon": 2.18974,
+     "listings": 161
+    },
+    "Sants - Badal": {
+     "lat": 41.3746,
+     "lon": 2.12695,
+     "listings": 149
+    },
+    "la Vila Olímpica del Poblenou": {
+     "lat": 41.39205,
+     "lon": 2.19396,
+     "listings": 135
+    },
+    "Diagonal Mar i el Front Marítim del Poblenou": {
+     "lat": 41.40521,
+     "lon": 2.21186,
+     "listings": 119
+    },
+    "el Guinardó": {
+     "lat": 41.41926,
+     "lon": 2.17511,
+     "listings": 102
+    },
+    "el Besòs i el Maresme": {
+     "lat": 41.41476,
+     "lon": 2.21552,
+     "listings": 100
+    },
+    "el Baix Guinardó": {
+     "lat": 41.41096,
+     "lon": 2.16945,
+     "listings": 89
+    },
+    "Provençals del Poblenou": {
+     "lat": 41.40993,
+     "lon": 2.20458,
+     "listings": 84
+    },
+    "Sant Gervasi - la Bonanova": {
+     "lat": 41.40461,
+     "lon": 2.13596,
+     "listings": 84
+    },
+    "la Salut": {
+     "lat": 41.41047,
+     "lon": 2.15331,
+     "listings": 81
+    },
+    "el Clot": {
+     "lat": 41.40873,
+     "lon": 2.18812,
+     "listings": 80
+    },
+    "Vilapicina i la Torre Llobeta": {
+     "lat": 41.42857,
+     "lon": 2.18313,
+     "listings": 79
+    },
+    "Vallcarca i els Penitents": {
+     "lat": 41.41194,
+     "lon": 2.14672,
+     "listings": 77
+    },
+    "Sant Andreu": {
+     "lat": 41.43555,
+     "lon": 2.18824,
+     "listings": 73
+    },
+    "la Bordeta": {
+     "lat": 41.37037,
+     "lon": 2.13736,
+     "listings": 72
+    },
+    "la Font de la Guatlla": {
+     "lat": 41.37057,
+     "lon": 2.14552,
+     "listings": 70
+    },
+    "la Maternitat i Sant Ramon": {
+     "lat": 41.37914,
+     "lon": 2.12494,
+     "listings": 70
+    },
+    "Sarrià": {
+     "lat": 41.39692,
+     "lon": 2.1224,
+     "listings": 67
+    },
+    "el Carmel": {
+     "lat": 41.42126,
+     "lon": 2.15608,
+     "listings": 64
+    },
+    "la Marina de Port": {
+     "lat": 41.35993,
+     "lon": 2.13888,
+     "listings": 62
+    },
+    "Navas": {
+     "lat": 41.41853,
+     "lon": 2.18583,
+     "listings": 61
+    },
+    "les Tres Torres": {
+     "lat": 41.395,
+     "lon": 2.13097,
+     "listings": 56
+    },
+    "el Congrés i els Indians": {
+     "lat": 41.42329,
+     "lon": 2.18137,
+     "listings": 41
+    },
+    "la Sagrera": {
+     "lat": 41.42355,
+     "lon": 2.18946,
+     "listings": 39
+    },
+    "Sant Martí de Provençals": {
+     "lat": 41.41712,
+     "lon": 2.19678,
+     "listings": 35
+    },
+    "Can Baró": {
+     "lat": 41.41594,
+     "lon": 2.16171,
+     "listings": 34
+    },
+    "Vallvidrera, el Tibidabo i les Planes": {
+     "lat": 41.41581,
+     "lon": 2.10594,
+     "listings": 30
+    },
+    "Pedralbes": {
+     "lat": 41.38948,
+     "lon": 2.12052,
+     "listings": 28
+    },
+    "el Coll": {
+     "lat": 41.41804,
+     "lon": 2.14865,
+     "listings": 27
+    },
+    "la Verneda i la Pau": {
+     "lat": 41.4231,
+     "lon": 2.20302,
+     "listings": 27
+    },
+    "la Font d'en Fargues": {
+     "lat": 41.42602,
+     "lon": 2.16457,
+     "listings": 22
+    },
+    "Porta": {
+     "lat": 41.43327,
+     "lon": 2.1788,
+     "listings": 18
+    },
+    "la Prosperitat": {
+     "lat": 41.44138,
+     "lon": 2.17872,
+     "listings": 16
+    },
+    "el Turó de la Peira": {
+     "lat": 41.43197,
+     "lon": 2.16929,
+     "listings": 15
+    },
+    "la Guineueta": {
+     "lat": 41.43767,
+     "lon": 2.16931,
+     "listings": 13
+    },
+    "la Teixonera": {
+     "lat": 41.42294,
+     "lon": 2.14722,
+     "listings": 13
+    },
+    "les Roquetes": {
+     "lat": 41.44833,
+     "lon": 2.17602,
+     "listings": 13
+    },
+    "Horta": {
+     "lat": 41.43082,
+     "lon": 2.16011,
+     "listings": 12
+    },
+    "el Bon Pastor": {
+     "lat": 41.4358,
+     "lon": 2.20278,
+     "listings": 8
+    },
+    "la Vall d'Hebron": {
+     "lat": 41.43066,
+     "lon": 2.14858,
+     "listings": 7
+    },
+    "Montbau": {
+     "lat": 41.43085,
+     "lon": 2.14101,
+     "listings": 6
+    },
+    "Sant Genís dels Agudells": {
+     "lat": 41.42724,
+     "lon": 2.13642,
+     "listings": 5
+    },
+    "Verdun": {
+     "lat": 41.44223,
+     "lon": 2.17576,
+     "listings": 4
+    },
+    "la Clota": {
+     "lat": 41.42766,
+     "lon": 2.15118,
+     "listings": 4
+    },
+    "la Marina del Prat Vermell": {
+     "lat": 41.35301,
+     "lon": 2.14698,
+     "listings": 3
+    },
+    "la Trinitat Nova": {
+     "lat": 41.44801,
+     "lon": 2.18293,
+     "listings": 3
+    },
+    "la Trinitat Vella": {
+     "lat": 41.45198,
+     "lon": 2.1928,
+     "listings": 3
+    },
+    "Torre Baró": {
+     "lat": 41.45638,
+     "lon": 2.18457,
+     "listings": 1
+    },
+    "Ciutat Meridiana": {
+     "lat": 41.46224,
+     "lon": 2.17813,
+     "listings": 1
+    }
+   },
+   "bounds": {
+    "lat": [
+     41.301782790984184,
+     41.512243
+    ],
+    "lon": [
+     2.0424138075414917,
+     2.27139
+    ]
+   }
+  }
+ },
+ "property_types": {
+  "Entire home/apt": [
+   "Entire rental unit",
+   "Entire condo",
+   "Entire home",
+   "Entire serviced apartment",
+   "Entire loft",
+   "Entire vacation home",
+   "Entire townhouse",
+   "Entire guesthouse",
+   "Entire guest suite",
+   "Tiny home",
+   "Entire villa",
+   "Room in aparthotel",
+   "Entire place",
+   "Boat",
+   "Room in hotel",
+   "Room in boutique hotel"
+  ],
+  "Private room": [
+   "Private room in rental unit",
+   "Private room in home",
+   "Private room in condo",
+   "Private room in bed and breakfast",
+   "Room in hotel",
+   "Private room in townhouse",
+   "Room in boutique hotel",
+   "Private room in hostel",
+   "Private room in guesthouse",
+   "Private room in serviced apartment",
+   "Private room in guest suite",
+   "Private room in loft",
+   "Private room",
+   "Private room in casa particular",
+   "Room in aparthotel",
+   "Private room in vacation home"
+  ],
+  "Hotel room": [
+   "Room in boutique hotel",
+   "Room in hotel",
+   "Room in bed and breakfast",
+   "Room in serviced apartment",
+   "Room in aparthotel"
+  ],
+  "Shared room": [
+   "Shared room in rental unit",
+   "Shared room in hostel",
+   "Shared room in hotel",
+   "Shared room in bed and breakfast"
+  ]
+ },
+ "source": "data"
+}

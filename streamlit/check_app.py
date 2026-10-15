@@ -1,6 +1,6 @@
 """Quick end-to-end check of the HostWise app logic with the real saved pipeline.
 
-Run from the project root:  python app/check_app.py
+Run from the project root:  python streamlit/check_app.py
 """
 import hostwise_service as svc
 

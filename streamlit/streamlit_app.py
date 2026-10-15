@@ -1,7 +1,7 @@
 """HostWise — Airbnb Price Prediction & Comparison (Streamlit app).
 
 Run from the project root:
-    streamlit run app/streamlit_app.py
+    streamlit run streamlit/streamlit_app.py
 """
 from __future__ import annotations
 
